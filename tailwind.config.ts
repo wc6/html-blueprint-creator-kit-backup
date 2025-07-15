@@ -26,6 +26,7 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
+					hover: 'hsl(var(--primary-hover))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -51,6 +52,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				chat: {
+					background: 'hsl(var(--chat-background))',
+					sidebar: 'hsl(var(--chat-sidebar))',
+					message: 'hsl(var(--chat-message))',
+					input: 'hsl(var(--chat-input))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
